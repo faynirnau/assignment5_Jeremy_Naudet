@@ -165,9 +165,9 @@ function changePosition() {
     }
 }
 
-// window.onload = initialization;
-window.onload = function () {
-    let app = new App();
-    app.startGame();
+window.onload = initialization;
+// window.onload = function () {
+//     let app = new App();
+//     app.startGame();
 
-}
+// }
