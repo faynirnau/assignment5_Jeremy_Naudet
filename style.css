@@ -1,0 +1,29 @@
+#menu {
+    position: fixed;
+    top:0;
+    left: 40%;
+    border: 1px solid black;
+    background-color: silver;
+    padding: 10px;
+}
+
+#menu div {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+#start {
+    background-color: red;
+    cursor: pointer;
+}
+
+.fly {
+    background-image: url("http://img.informer.com/icons/png/48/4259/4259836.png");
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+    }
